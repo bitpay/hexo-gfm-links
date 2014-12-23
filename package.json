@@ -1,0 +1,46 @@
+{
+  "name": "hexo-gfm-links",
+  "version": "0.0.1",
+  "description": "Rewrite Markdown links into relative Hexo html links",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitpay/hexo-gfm-links.git"
+  },
+  "keywords": [
+    "website",
+    "blog",
+    "cms",
+    "framework",
+    "hexo"
+  ],
+  "author": {
+    "name": "BitPay",
+    "email": "dev@bitpay.com",
+    "url": "https://bitpay.com"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://raw.github.com/bitpay/hexo-gfm-links/master/LICENSE"
+  },
+  "engines": {
+    "hexo": "*"
+  },
+  "dependencies": {
+    "glob": "*",
+    "async": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/bitpay/hexo-gfm-links/issues"
+  },
+  "devDependencies": {
+    "assert": "^1.2.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.0.1"
+  }
+}

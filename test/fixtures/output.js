@@ -1,0 +1,1 @@
+module.exports = '<p>You can also instantiate an Address from a String, <a href="publickey.html">PublicKey</a>, or <a href="hierarchical.html">HDPublicKey</a>, in case you are not the owner of the private key.</p>';
